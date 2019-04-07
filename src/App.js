@@ -62,6 +62,13 @@ class App extends Component {
 
                                 <p>{info.bio}</p>
                             </div>
+                            <div className="box is-hidden-desktop level">
+                                {
+                                    info.mobileTags && info.tags.map((tag, i) => {
+                                        return <a key={i} className="level-item" href="#" onClick={(e) => { e.preventDefault(); this.setState({ page: tag }); }}>{tag}</a>
+                                    })
+                                }
+                            </div>
                             {info.boxes.filter(box => !box.column || box.column === 1).map((box, i) => {
                                 if (box.tag && this.state.page !== box.tag) {
                                     return '';

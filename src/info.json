@@ -1,88 +1,101 @@
 {
-    "fullName": "Ellen Ripley",
-    "position": "Warrant Officer",
-    "location": "Nostromo",
-    "github": "",
-    "bio": "She's not a sidekick, arm candy, or a damsel to be rescued. Starting with Alien, Ripley was a fully competent member of a crew or ensemble — not always liked and sometimes disrespected, but doing her job all the same. As each film progresses, she comes to the fore and faces challenges head-on — she's the hero of the piece, in other words Ripley isn't a fantasy version of a woman. Science fiction film is filled with hot kickass women doing impossible things with guns and melee weapons while they spin about like a gymnast in a dryer. As fun as that is to watch, at the end of the day it's still giving women short shrift, since what they are then are idealized killer fembots rather than actual human beings. Ripley, on the other hand, is pushy, aggressive, rude, injured, suffering from post-traumatic syndrome, not wearing makeup, tired, smart, maternal, angry, empathetic, and determined to save others, even at great cost to herself. All without being a spinny killbot.",
+    "fullName": "Daniel Brakke",
+    "position": "Software Developer / Musician",
+    "location": "Twin Cities",
+    "github": "brakkum",
+    "mobileTags": true,
+    "bio": "I'm a Twin Cities based Software Developer and Musician. I spent my 20s playing hundreds of gigs across the country, and it looks like my 30s will consist of writing hundreds (of thousands) of lines of code. Not a bad trade off.",
     "tags": [
-        "Explorer",
-        "Exterminator"
+        "Developer",
+        "Musician"
     ],
     "boxes": [
         {
-            "title": "Hobbies",
-            "tag": "Explorer",
-            "paragraph": "Insert paragraph here",
+            "title": "Projects",
+            "tag": "Developer",
+            "paragraph": "Personal projects I've worked on in my spare time",
             "items": [
-                "First thing",
-                "Second thing",
-                "Third thing"
+                "[Linkst.rip](http://linkst.rip) - a URL shortening service",
+                "[Timelapse_EQ](https://github.com/brakkum/timelapse_eq) - A Python based CLI for manipulating the exposure of photographs in a time-lapse automatically",
+                "[Flickr Resizer](https://github.com/brakkum/flickr_resize_chrome_ext) - A quick Google Chrome extension made to prevent photos from overtaking the entire screen when utilizing 'View all sizes' on Flickr",
+                "[TimeClock](https://github.com/brakkum/timeclock_app) - Another Python CLI, made to keep track of time spent on client tickets"
             ]
         },
         {
-            "title": "Skills",
-            "tag": "Exterminator",
-            "paragraph": "I have these skills",
+            "title": "Education/Experience",
+            "tag": "Developer",
             "items": [
-                "One",
-                "Two",
-                "Three",
-                "Fourth"
+                {
+                    "where": "Dunwoody College of Technology",
+                    "what": "Web Development AAS, May 2019"
+                },
+                {
+                    "where": "RawaySmith",
+                    "what": "Web Development Contractor, Summer 2018"
+                }
             ]
         },
         {
-            "title": "Tools",
-            "paragraph": "I use these tools to get things done",
+            "title": "Gear",
+            "tag": "Developer",
+            "paragraph": "Some things I use that help me get the job done",
             "items": [
-                "Flamethrower?",
-                "Mining mech?",
-                "Please help me add more Alien references!"
+                "[JetBrains IDEs](https://www.jetbrains.com/)",
+                "[iTerm2](https://www.iterm2.com/)",
+                "[Spectacle](https://www.spectacleapp.com/)",
+                "[Keyboard Maestro](https://www.keyboardmaestro.com/main/)"
+            ]
+        },
+        {
+            "title": "Who I Play With Now",
+            "tag": "Musician",
+            "items": [
+                "[Pandora's Other Box](https://www.poboxmusic.com/)",
+                "[Do A Barrel Roll!](https://www.facebook.com/DABRofficial/)",
+                "[Mercy Hill Church](http://mercy-hill.com/)"
+            ]
+        },
+        {
+            "title": "Gear",
+            "tag": "Musician",
+            "items": [
+                "Schecter CV-5 Bass Guitar",
+                "Acoustic B300HD Head",
+                "Acoustic B410C Cab",
+                "Ampeg 210AV Cab"
+            ]
+        },
+        {
+            "title": "Languages and Frameworks",
+            "tag": "Developer",
+            "paragraph": "Some technologies I've worked with and enjoy thus far",
+            "items": [
+                "JavaScript -- React / Node",
+                "Python",
+                "C# -- .NET / Entity Framework",
+                "PHP -- Symfony",
+                "HTML/CSS -- Bulma / SASS"
             ]
         },
         {
             "title": "Education",
-            "tag": "Exterminator",
-            "paragraph": "I have learned by doing",
+            "tag": "Musician",
             "items": [
                 {
-                    "where": "School of hard knocks",
-                    "what": "Life experience"
-                }
-            ]
-        },
-        {
-            "title": "Books",
-            "paragraph": "These are books",
-            "items": [
-                {
-                    "title": "Getting Things Done",
-                    "authors": "David Allen"
+                    "where": "McNally Smith College of Music",
+                    "what": "Bass Performance, Jan 2009 - May 2012"
                 }
             ]
         },
         {
             "column": 2,
-            "image": "background.jpg"
+            "tag": "Developer",
+            "image": "developer.jpg"
         },
         {
             "column": 2,
-            "title": "Porte",
-            "paragraph": "So how do I use Porte?",
-            "items": [
-                "Fork the repo",
-                "Modify info.json",
-                "Replace the images in ./public/images/",
-                "Detailed instructions available on [Github](https://github.com/sunfarm/porte)",
-                "If this is still a bit too technical for you, open an issue on [Github](https://github.com/sunfarm/porte/issues) requesting a site and I'll try to help you set one up for free (for a limited time)."
-            ]
-        },
-        {
-            "column": 2,
-            "title": "Who's using Porte?",
-            "paragraph": "Just me right now... if you use it, send me a message or PR on Github to add your site to this list!",
-            "items": [
-                "Nathanael Raway, Software Developer - [nathanaelraway.com](https://nathanaelraway.com/)"
-            ]
+            "tag": "Musician",
+            "image": "musician.jpg"
         }
     ]
 }
