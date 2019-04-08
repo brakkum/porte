@@ -23,7 +23,6 @@ class App extends Component {
 
     componentDidMount = () => {
         ReactGA.pageview(window.location.pathname + window.location.search)
-        document.title = info.fullName
     }
 	
     render() {
