@@ -58,7 +58,7 @@ class App extends Component {
                     </div>
                 </nav>
 
-                <section className="section">
+                <section className="section hero is-fullheight-with-navbar">
                     <div className="columns">
                         <div className="column">
                             <div className="box">
@@ -71,13 +71,6 @@ class App extends Component {
                                 <h4 className="subtitle is-4">{info.position}</h4>
 
                                 <p>{info.bio}</p>
-                            </div>
-                            <div className="box is-hidden-desktop level">
-                                {
-                                    info.mobileTags && info.tags.map((tag, i) => {
-                                        return <a key={i} className="level-item" href="#" onClick={(e) => { e.preventDefault(); this.setState({ page: tag }); }}>{tag}</a>
-                                    })
-                                }
                             </div>
                             {info.boxes.filter(box => !box.column || box.column === 1).map((box, i) => {
                                 if (box.tag && this.state.page !== box.tag) {

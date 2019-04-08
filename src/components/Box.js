@@ -15,7 +15,9 @@ export default class Box extends Component {
         if (this.props.image) {
             const image = images(`./${this.props.image}`);
             return (
-                <img className="rounded" src={image}></img>
+                <div className="is-flex">
+                    <img className="rounded" style={{margin: "auto"}} src={image} />
+                </div>
             );
         }
         if (this.props.items) {
