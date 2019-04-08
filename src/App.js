@@ -12,6 +12,11 @@ const info = require('./info.json')
 const logo = images('./logo.png')
 const faGithub = require('./github-brands.svg')
 const defaultTag = info.tags[0]
+const head = document.getElementsByTagName('head')[0]
+const meta = document.createElement('meta')
+meta.property = 'og:image'
+meta.content = logo
+head.append(meta)
 
 class App extends Component {
     constructor(props) {
