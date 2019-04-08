@@ -7,16 +7,10 @@ import './App.css'
 ReactGA.initialize(process.env.REACT_APP_GA_ID)
 
 const images = require.context('../public/images', true)
-
 const info = require('./info.json')
 const logo = images('./logo.png')
 const faGithub = require('./github-brands.svg')
 const defaultTag = info.tags[0]
-const head = document.getElementsByTagName('head')[0]
-const meta = document.createElement('meta')
-meta.property = 'og:image'
-meta.content = logo
-head.append(meta)
 
 class App extends Component {
     constructor(props) {
@@ -31,7 +25,7 @@ class App extends Component {
         ReactGA.pageview(window.location.pathname + window.location.search)
         document.title = info.fullName
     }
-
+	
     render() {
         return (
             <div className="App">
