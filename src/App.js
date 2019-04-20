@@ -28,7 +28,7 @@ class App extends Component {
     render() {
         return (
             <div className="App">
-                <nav className="navbar is-transparent is-fixed-top" role="navigation" aria-label="main navigation">
+                <nav className="navbar is-transparent" role="navigation" aria-label="main navigation">
                     <div className="navbar-brand">
                         <a className="navbar-item" href="#" onClick={(e) => { e.preventDefault(); this.setState({ page: defaultTag }) }}>
                             <img src={logo} alt={info.fullName} />
