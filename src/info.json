@@ -14,10 +14,15 @@
             "tag": "Developer",
             "paragraph": "Personal projects I've worked on in my spare time",
             "items": [
-                "[Linkst.rip](http://linkst.rip) - a URL shortening service",
+                "<b>Made by me</b>",
+                "[MyGig](https://mygig.online) - A site for musicians to keep track of their events and setlists",
+                "[Linkst.rip](https://linkst.rip) - A URL shortening service built with PHP and React",
                 "[Timelapse_EQ](https://github.com/brakkum/timelapse_eq) - A Python based CLI for manipulating the exposure of photographs in a time-lapse automatically",
                 "[Flickr Resizer](https://github.com/brakkum/flickr_resize_chrome_ext) - A quick Google Chrome extension made to prevent photos from overtaking the entire screen when utilizing 'View all sizes' on Flickr",
-                "[TimeClock](https://github.com/brakkum/timeclock_app) - Another Python CLI, made to keep track of time spent on client tickets"
+                "[TimeClock](https://github.com/brakkum/timeclock_app) - Another Python CLI, made to keep track of time spent on client tickets",
+                "<b>Projects I like and contribute to</b>",
+                "[Min Browser](https://github.com/minbrowser/min) - A minimalistic web browser built in JavaScript using Electron",
+                "[Porte](https://github.com/sunfarm/porte) - Simple personal websites with React (it's what this site is built with!)"
             ]
         },
         {
@@ -41,6 +46,7 @@
             "items": [
                 "[JetBrains IDEs](https://www.jetbrains.com/)",
                 "[iTerm2](https://www.iterm2.com/)",
+                "[Git](https://git-scm.com/)",
                 "[Spectacle](https://www.spectacleapp.com/)",
                 "[Keyboard Maestro](https://www.keyboardmaestro.com/main/)"
             ]
@@ -69,11 +75,12 @@
             "tag": "Developer",
             "paragraph": "Some technologies I've worked with and enjoy thus far",
             "items": [
-                "JavaScript -- React / Node",
+                "JavaScript, React, Node",
                 "Python",
-                "C# -- .NET / Entity Framework",
-                "PHP -- Symfony",
-                "HTML/CSS -- Bulma / SASS"
+                "C#, .NET, Entity Framework",
+                "PHP, Symfony",
+                "HTML/CSS, Bulma, SASS",
+                "Bash scripting, Git"
             ]
         },
         {
