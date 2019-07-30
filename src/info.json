@@ -17,6 +17,7 @@
                 "<b>Made by me</b>",
                 "[MyGig](https://mygig.online) - A site for musicians to keep track of their events and setlists",
                 "[Linkst.rip](https://linkst.rip) - A URL shortening service built with PHP and React",
+		"[Ocarina of Time Entrance Tracker](https://tracker.brakke.dev) - A tracker built to be used with the popular Legend of Zelda: Ocarina of Time Randomizer. Includes a path finding tool to assist the user and prevent confusion. Built with React.",
                 "[Timelapse_EQ](https://github.com/brakkum/timelapse_eq) - A Python based CLI for manipulating the exposure of photographs in a time-lapse automatically",
                 "[Flickr Resizer](https://github.com/brakkum/flickr_resize_chrome_ext) - A quick Google Chrome extension made to prevent photos from overtaking the entire screen when utilizing 'View all sizes' on Flickr",
                 "[TimeClock](https://github.com/brakkum/timeclock_app) - Another Python CLI, made to keep track of time spent on client tickets",
@@ -35,7 +36,7 @@
                 },
                 {
                     "where": "RawaySmith",
-                    "what": "Web Development Contractor, Summer 2018"
+                    "what": "Web Development Contractor, 2018 - Present"
                 }
             ]
         },
